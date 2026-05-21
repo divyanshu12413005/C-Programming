@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<string.h>
+int main(){
+    char c;
+    scanf("%c",&c);
+    int count=0;
+    char str[]="Divyanshus";
+    for(int i=0; i<strlen(str); i++){
+        if (str[i]==c){
+            count++;
+
+        }
+    }
+    printf("%d",count);
+    return 0;
+}
