@@ -1,0 +1,22 @@
+# C compiled output
+*.exe
+*.o
+*.obj
+*.out
+*.a
+*.so
+*.dll
+
+# Build folders
+build/
+bin/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.log
